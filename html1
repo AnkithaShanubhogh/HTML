@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My First Webpage </title>
+</head>
+<body>
+    <h1>Hello! World</h1>
+    <h6>hello! annu </h6>
+    <p>This is My  Very first HTML page.</p>    
+    Hello<br>World!
+    <hr> 
+    <b>I'M ANKITHA SHANBHAG </b> 
+    <i>CSE 1ST YEAR </i>
+    <em>A</em>
+    <u>SECTION</u>
+    <mark>IN</mark>
+    <small>SMVITM </small>   
+    <sub>HTML </sub>
+    <sup>language </sup>
+    <del>text</del>
+    <ins>editing</ins>
+</body>
+</html>
