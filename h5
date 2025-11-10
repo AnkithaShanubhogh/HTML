@@ -1,0 +1,53 @@
+<p>Uber</p>  
+
+<style> 
+  .request_now {
+    background-color: rgb(0, 0, 0); 
+    color: white;
+    border: none;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+    font-weight: normal;
+  }
+  
+</style>
+<button class="request_now">Request now</button>
+
+<p>Amazon</p>  
+
+<style> 
+  .add_to_cart {
+    background-color: rgb(233, 242, 58); 
+    color: black;
+    border: none;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+    border-radius:30px;
+    font-weight: normal;
+  }
+  
+</style>
+<button class="add_to_cart">Add to Cart</button>
+
+<p>Git hub</p>
+
+<style> 
+  .sign_up {
+    background-color: rgb(46, 164, 79); 
+    color: whitesmoke;
+    border: none;
+    height: 35px;
+    width: 90px;
+    cursor: pointer;
+    border-radius:3px;
+    font-weight: bold;
+  }
+  
+</style>
+<button class="sign_up">Sign up</button>
+
+
+
+
