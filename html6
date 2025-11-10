@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Working Audio & Video Example</title>
+  <!-- 
+    The <title> tag defines the title of the webpage.
+    It appears on the browser tab or window title bar.
+  -->
+</head>
+
+<body>
+  <!-- 
+    The <body> tag contains everything that will be visible on the webpage,
+    including headings, text, images, audio, and video.
+  -->
+
+  <!-- ---------------- AUDIO SECTION ---------------- -->
+  <h2>Working Audio Example</h2>
+  <!-- <h2> defines a sub-heading on the page.
+       Here, it’s used to label the audio example section. -->
+
+  <!-- The <audio> tag is used to embed sound content such as music or narration. -->
+  <!-- 'controls' attribute adds play, pause, and volume controls. -->
+  <audio controls>
+    <!-- The <source> tag specifies the path of the audio file and its format. -->
+    <!-- 'src' = source URL, 'type' = MIME type (audio/mpeg = MP3 format). -->
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+
+    <!-- This text is displayed if the browser doesn’t support the <audio> tag. -->
+    Your browser does not support the audio tag.
+  </audio>
+
+  <!-- ---------------- VIDEO SECTION ---------------- -->
+  <h2>Working Video Example</h2>
+  <!-- <h2> heading to label the video example section. -->
+
+  <!-- The <video> tag is used to embed video content into the webpage. -->
+  <!-- 'width' and 'height' specify the size of the video player. -->
+  <!-- 'controls' attribute adds play, pause, fullscreen, and volume controls. -->
+  <video width="640" height="360" controls>
+
+    <!-- The <source> tag inside <video> defines the video file and its format. -->
+    <!-- 'type="video/mp4"' specifies that the file format is MP4. -->
+    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+
+    <!-- This fallback text is displayed if the browser cannot play the video. -->
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- 
+    Summary:
+    - Both <audio> and <video> tags are HTML5 elements for embedding media.
+    - The 'controls' attribute adds user interface buttons.
+    - The <source> element lets browsers choose compatible formats.
+    - The fallback text ensures accessibility for unsupported browsers.
+  -->
+
+</body>
+</html>
