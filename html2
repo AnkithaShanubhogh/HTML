@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Complex List Example</title>
+  </head>
+
+  <body>
+    <h1>Web Development Topics</h1>
+
+    <!-- Main unordered list (uses bullets by default) -->
+    <ul>
+      <li>
+        Frontend Technologies
+        <!-- Nested ordered list (creates numbered sub-items) -->
+        <ol>
+          <li>
+            HTML
+            <!-- Description list (defines a term and its meaning) -->
+            <dl>
+              <!-- <dt> = Definition Term -->
+              <dt>HTML</dt>
+              <!-- <dd> = Definition Description -->
+              <dd>Used for structuring the web content.</dd>
+            </dl>
+          </li>
+
+          <li>
+            CSS
+            <dl>
+              <dt>CSS</dt>
+              <dd>Used for styling and layout of web pages.</dd>
+            </dl>
+          </li>
+
+          <li>
+            JavaScript
+            <dl>
+              <dt>JavaScript</dt>
+              <dd>Used to make websites interactive and dynamic.</dd>
+            </dl>
+          </li>
+        </ol>
+      </li>
+
+      <li>
+        Backend Technologies
+        <!-- Ordered list with uppercase letters using type="A" -->
+        <ol type="A">
+          <li>
+            Node.js
+            <!-- Nested unordered list inside ordered list -->
+            <ul>
+              <li>Express.js</li>
+              <li>MongoDB Integration</li>
+            </ul>
+          </li>
+
+          <li>Java (Spring Boot)</li>
+          <li>Python (Django, Flask)</li>
+        </ol>
+      </li>
+
+      <li>
+        Tools and Platforms
+        <!-- Another unordered list with multiple items -->
+        <ul>
+          <li>Git and GitHub</li>
+          <li>VS Code</li>
+          <li>Figma for UI Design</li>
+        </ul>
+      </li>
+    </ul>
+
+    <!-- Summary comment -->
+    <!--
+      <ul> → Unordered list (bullets)
+      <ol> → Ordered list (numbers or letters)
+      <dl> → Description list
+      <dt> → Term in a description list
+      <dd> → Definition of the term
+      Lists can be nested for hierarchy (list inside another list)
+      type="A" changes ordered list numbering style (A, B, C...)
+    -->
+  </body>
+</html>
