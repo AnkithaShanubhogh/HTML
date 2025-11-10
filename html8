@@ -1,0 +1,98 @@
+<!-- 
+    Program: CSS Box Model Demonstration
+    Topic: CSS Fundamentals - Box Model
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Box Model Example</title>
+
+  <style>
+    /* 
+      🔹 The CSS Box Model consists of 4 layers around every HTML element:
+      
+           ┌────────────────────────────┐
+           │        Margin (outside)    │
+           │  ┌──────────────────────┐  │
+           │  │    Border            │  │
+           │  │  ┌────────────────┐  │  │
+           │  │  │ Padding        │  │  │
+           │  │  │  ┌──────────┐  │  │  │
+           │  │  │  │ Content  │  │  │  │
+           │  │  │  └──────────┘  │  │  │
+           │  │  └────────────────┘  │  │
+           │  └──────────────────────┘  │
+           └────────────────────────────┘
+      
+      Each element is treated as a rectangular box.
+    */
+
+    /* Style for the container to visualize spacing */
+    body {
+      background-color: #f2f2f2;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    h1 {
+      color: darkblue;
+    }
+
+    /* 
+      📦 Main Box Element 
+      - We’ll apply all box model properties here
+    */
+    .box {
+      width: 250px;                /* Content width only */
+      height: 100px;               /* Content height */
+      background-color: #add8e6;   /* Light blue background for visibility */
+      color: #000;
+      margin: 40px auto;           /* Margin: space OUTSIDE the box */
+      padding: 20px;               /* Padding: space INSIDE between content and border */
+      border: 5px solid #00008b;   /* Border around the padding and content */
+      border-radius: 10px;         /* Slightly rounded corners */
+      box-shadow: 4px 4px 10px gray; /* Adds shadow to visualize box boundaries */
+    }
+
+    /* 
+      🧮 Another Box for Comparison 
+      - Using different margin, padding, and border values
+    */
+    .second-box {
+      width: 250px;
+      height: 100px;
+      background-color: #90ee90;   /* Light green */
+      color: #000;
+      margin: 60px auto;           /* Larger outer spacing */
+      padding: 10px;               /* Smaller inner spacing */
+      border: 10px dashed darkgreen; /* Thicker border, dashed style */
+    }
+
+    /* 
+      To show how the total size is calculated:
+      
+      ➤ Total Element Width = content width + padding-left + padding-right + border-left + border-right + margin-left + margin-right
+      ➤ Total Element Height = content height + padding-top + padding-bottom + border-top + border-bottom + margin-top + margin-bottom
+    */
+  </style>
+</head>
+
+<body>
+  <h1>Understanding the CSS Box Model</h1>
+
+  <div class="box">
+    <!-- Content area -->
+    This is the <b>content</b> area.<br>
+    Padding adds space inside the box,<br>
+    and margin adds space outside it.
+  </div>
+
+  <div class="second-box">
+    This is another box.<br>
+    Compare the difference in spacing and borders.
+  </div>
+
+  <p><b>Note:</b> The total visible size of an element includes its content, padding, border, and margin.</p>
+</body>
+</html>
