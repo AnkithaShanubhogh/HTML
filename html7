@@ -1,0 +1,148 @@
+<!-- 
+    Program: Demonstration of Different Types of CSS Selectors
+    Author: Chirashree
+    Topic: CSS Fundamentals - Selectors
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Selectors Example</title>
+
+  <style>
+    /* -------------------------------------------------------------
+       1️⃣ Universal Selector (*) 
+       - Applies styles to ALL elements on the page
+    ------------------------------------------------------------- */
+    * {
+      font-family: Arial, sans-serif; /* Applies to all text */
+      margin: 5px;
+    }
+
+    /* -------------------------------------------------------------
+       2️⃣ Element Selector (Tag Selector)
+       - Targets specific HTML elements by their tag name
+    ------------------------------------------------------------- */
+    h1 {
+      color: darkblue;
+      text-align: center;
+    }
+
+    p {
+      color: hsl(0, 0%, 20%);
+      font-size: 18px;
+    }
+
+    /* -------------------------------------------------------------
+       3️⃣ Class Selector (.classname)
+       - Targets elements that have a specific class attribute
+       - Can be reused for multiple elements
+    ------------------------------------------------------------- */
+    .highlight {
+      background-color: yellow;
+      font-weight: bold;
+    }
+
+    .info-text {
+      color: rgb(0, 32, 100);
+      font-style: italic;
+    }
+
+    /* -------------------------------------------------------------
+       4️⃣ ID Selector (#idname)
+       - Targets a single, unique element with a specific ID
+       - Each page should have only one element with that ID
+    ------------------------------------------------------------- */
+    #special {
+      color: white;
+      background-color: rgb(0, 128, 115);
+      padding: 10px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+    /* -------------------------------------------------------------
+       5️⃣ Group Selector (h2, p)
+       - Applies the same style to multiple element types
+    ------------------------------------------------------------- */
+    h2, p {
+      margin-left: 20px;
+    }
+
+    /* -------------------------------------------------------------
+       6️⃣ Descendant Selector (div p)
+       - Targets elements inside a specific parent element
+       - Example: all <p> inside <div>
+    ------------------------------------------------------------- */
+    div p {
+      color: darkred;
+    }
+
+    /* -------------------------------------------------------------
+       7️⃣ Child Selector (section > p)
+       - Targets direct children only (not nested deeper)
+    ------------------------------------------------------------- */
+    section > p {
+      color: teal;
+    }
+
+    /* -------------------------------------------------------------
+       8️⃣ Attribute Selector ([attribute=value])
+       - Targets elements with a specific attribute value
+    ------------------------------------------------------------- */
+    input[type="text"] {
+      border: 2px solid #007bff;
+      padding: 5px;
+      border-radius: 4px;
+    }
+
+    input[type="submit"] {
+      background-color: #28a745;
+      color: rgba(255, 255, 255, 0.879);
+      border: none;                                                         
+      padding: 8px 12px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    
+
+  </style>
+</head>
+
+<body>
+  <!-- Element Selector Example -->
+  <h1>CSS Selectors Demonstration</h1>
+
+  <!-- Class Selector Example -->
+  <p class="highlight">This paragraph uses the 'highlight' class.</p>
+  <p class="info-text">This one uses the 'info-text' class to make text green and italic.</p>
+
+  <!-- ID Selector Example -->
+  <div id="special">This section uses an ID selector (#special).</div>
+
+  <!-- Group Selector and Descendant Selector Example -->
+  <div>
+    <h2>Inside a DIV Section</h2>
+    <p>This paragraph is styled by the descendant selector (div p).</p>
+  </div>
+
+  <!-- Child Selector Example -->
+  <section>
+    <p>This is a direct child paragraph of section (styled by section > p).</p>
+    <div>
+      <p>This paragraph is inside a div (not styled by child selector).</p>
+    </div>
+  </section>
+
+  <!-- Attribute Selector Example -->
+  <form>
+    <label>Enter Name:</label>
+    <input type="text" placeholder="Your name here"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+
+  
+
+</body>
+</html>
