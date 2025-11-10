@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Links and Images Example</title>      # Title of the webpage
+  </head>
+
+  <body>
+    <h1>Links and Images in HTML</h1>                <!-- Main heading -->
+
+    <!-- ========================== -->
+    <!-- 🔗 LINKS SECTION -->                        
+    <!-- ========================== -->
+
+    <!-- 1️⃣ Simple hyperlink -->
+    <a href="https://www.google.com">Go to Google</a>      <!-- 
+      This is a hyperlink that points to Google.    
+    <!-- 
+      <a> tag creates a clickable link.
+      href attribute holds the URL you want to open.
+    -->
+
+    <br><br>
+
+    <!-- 2️⃣ Link that opens in a new tab -->
+    <a href="https://www.wikipedia.org" target="_blank">Open Wikipedia</a>        
+    <!-- 
+      target="_blank" opens the link in a new browser tab.
+    -->
+
+    
+
+    <br><br>
+
+    <!-- ========================== -->
+    <!-- 🖼️ IMAGES SECTION -->
+    <!-- ========================== -->
+
+    <!-- 1️⃣ Simple image -->
+    <img src="https://www.w3schools.com/html/img_girl.jpg" alt="Girl with a camera" width="200">
+    <!-- 
+      <img> tag displays an image.
+      src = image URL or local path.
+      alt = alternate text (shown if image not found).
+      width = controls the size.
+    -->
+
+    <br><br>
+
+    <!-- 2️⃣ Image as a clickable link -->
+    <a href="https://developer.mozilla.org/" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" 
+           alt="HTML Logo" width="100">
+    </a>
+    <!-- 
+      The <img> is placed inside an <a> tag.
+      Clicking the image opens the MDN website.
+    -->
+
+  </body>
+</html>
