@@ -1,0 +1,72 @@
+<p> 
+  Boot strap
+</p>
+
+<style> 
+  .get_started-button {
+    background-color: rgb(122, 60, 194); 
+    color: white;
+    border: none;
+    height: 40px;
+    width: 130px;
+    cursor: pointer;
+    border-radius:5px;
+    font-weight: bold;
+  }
+
+  .download-button {
+    background-color: white;
+    color: black;
+    border: rgba(0, 0, 0, 0.833) solid;
+    height: 40px;
+    width: 130px;
+    cursor: pointer;
+    border-radius:5px;
+    font-weight: normal;
+  } 
+</style>
+
+<button class="get_started-button" target="_blank">
+  Get started
+</button>
+
+<button class="download-button" target="_blank">
+  Download
+</button>
+
+
+<p> 
+  Linkedin
+</p>
+
+<style> 
+  .apply_on_company_website-button {
+    background-color: rgb(10, 102, 194); 
+    color: white;
+    border: none;
+    height: 40px;
+    width: 130px;
+    cursor: pointer;
+    border-radius: 60px;
+    font-weight: bold;
+  }
+
+  .save-button {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border:rgb(10, 102, 194) solid 1px;
+    height: 40px;
+    width: 130px;
+    cursor: pointer;
+    border-radius:20px;
+    font-weight: normal;
+  } 
+</style>
+
+<button class="apply_on_company_website-button" end=" ">
+  Apply on company website
+</button>
+
+<button class="save-button" target="_blank">
+  Save
+</button>
