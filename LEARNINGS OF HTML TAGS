@@ -1,0 +1,33 @@
+1)) 🧠 Easy difference
+
+type = "number" → 🔢 Numbers only (0-10)
+type = "tel" → ☎️ Telephone numbers (+91-9876543210)
+type = "range" → 🎚️ Slider (0-100)
+list → 📋 Suggestions
+
+2)) 🧠 Easy difference
+
+<main> → Main content
+<aside> → Extra/related content
+<section> → A related section of content
+<div> → Generic container
+
+3)) 🧠 Easy trick
+<section> → related content with a common theme 📦
+<article> → independent content that can stand alone 📰
+<aside> → extra/related content 📌
+<div> → general container 🧱
+
+👉 Common theme + own heading = <section>.
+
+4)) | Type         |    CSS written                  | Best for       |
+    | ------------ | ---------------------           | -------------- |
+    | **Inline**   | Inside HTML element             | One element    |
+    | **Internal** | `<style>` inside <head> in HTML | One page       |
+    | **External** | Separate `.css` file            | Multiple pages |
+
+
+
+
+
+
